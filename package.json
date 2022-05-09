@@ -1,0 +1,19 @@
+{
+  "name": "discordbotmusic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicoVergara94/Discord-Bot-Music.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicoVergara94/Discord-Bot-Music/issues"
+  },
+  "homepage": "https://github.com/RicoVergara94/Discord-Bot-Music#readme"
+}
