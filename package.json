@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/RicoVergara94/Discord-Bot-Music/issues"
   },
-  "homepage": "https://github.com/RicoVergara94/Discord-Bot-Music#readme"
+  "homepage": "https://github.com/RicoVergara94/Discord-Bot-Music#readme",
+  "dependencies": {
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0"
+  }
 }
