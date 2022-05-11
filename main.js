@@ -10,6 +10,18 @@ const commands = [
     name: "ping",
     description: "Replies with Pong!",
   },
+  {
+    name: "music",
+    description: "Will prompt commands for music selection",
+  },
+  {
+    name: "youtube",
+    description: "Will provide link to youtube",
+  },
+  {
+    name: "bing",
+    description: "Will reply with bong!",
+  },
 ];
 
 const rest = new REST({ version: "9" }).setToken(token);
@@ -37,9 +49,12 @@ client.on("ready", () => {
 
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isCommand()) return;
-
-  if (interaction.commandName === "ping") {
+  else if (interaction.commandName === "ping") {
     await interaction.reply("Pong!");
+  } else if (interaction.commandName === "youtube") {
+    await interaction.reply("https://youtube.com");
+  } else if (interaction.commandName === "music") {
+    await interaction.reply("What do you want!");
   }
 });
 
