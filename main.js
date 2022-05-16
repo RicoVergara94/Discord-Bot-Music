@@ -1,9 +1,8 @@
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
-const token =
-  "OTczMjE4NDUzNDYyODQ3NDg4.GOm4rL.ZscaAjq90aOEeyFy8cI_f8U89mtIzCQPFi4dw8";
-const CLIENT_ID = "973218453462847488";
-const GUILD_ID = "973217727739207701";
+const ytdl = require("ytdl-core");
+const fs = require("fs");
+import { token, CLIENT_ID, GUILD_ID } from "./keys";
 
 const commands = [
   {
